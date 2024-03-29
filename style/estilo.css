@@ -2,10 +2,7 @@
     margin:0px;
 }
 body{
-    background:url(../img/fundo2.jpg);
-    background-size: 1500px;
-    background-repeat:repeat;
-    background-position: center;
+    background-color: cornflowerblue;
     font-family:'Noto Serif',serif;
     min-width:950px;
 }

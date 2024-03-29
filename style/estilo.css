@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+}
+body{
+    background:url(../img/fundo2.jpg);
+    background-size: 1500px;
+    background-repeat:repeat;
+    background-position: center;
+    font-family:'Noto Serif',serif;
+    min-width:950px;
+}
+header{
+    width:900px;
+    height:300px;
+    border-radius:0px 0px 10px 10px;
+    background:url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0px auto 15px auto;
+}
+h1{
+   width:900px;
+   text-align: center;
+   line-height: 290px;
+   font-size: 72px;
+   font-weight: normal;
+   text-shadow: 2px 2px #fafafa;
+   color: #402000; 
+}
+div{
+    width: 900px;
+    margin: 0px auto;
+}
+aside{
+    background-color: #EACB9D;
+    width: 215px;
+    border-radius: 10px;
+    float:left;
+    padding: 5px;
+}
+aside ul{
+    padding: 0px;
+}
+aside li{
+    padding: 2px;
+    border-bottom: 1px dashed #E1B373;
+    list-style-type: none;
+}
+aside ul li:last-child{
+    margin-bottom: 50px;
+}
+aside ul li a:link, a:visited{
+    color:#402000;
+    text-decoration: none;
+} 
+aside ul li a:hover{
+    color: #8d4400;
+    padding-left: 2px;
+}
+section{
+    background-color: #ffffff;
+    width: 645px;
+    border-radius: 10px 10px 0px 0px;
+    float: right;
+    padding: 5px;
+}
+footer{
+    background-color: #ffffff;
+    width: 645px;
+    border-radius: 0px 0px 10px 10px;
+    float: right;
+    padding: 5px;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px dashed #ABABAB;
+    color: #ABABAB;
+}
+table, td, th{
+    border: solid 1px #5F5F5F;
+    padding: 0px;
+    margin: 10px;
+}
+thead{
+    color: #ffffff;
+    background-color: #ababab;
+}
+tfoot{
+    color: #808080;
+    font-size: 12px;
+    background-color: #dedede;
+}

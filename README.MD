@@ -1,6 +1,6 @@
 # Site de Planejamento para Viagem
 
-Endreço GITHUB: https://github.com/samyfg41/samyfg41.github.io.git
+Endereço GITHUB: https://github.com/samyfg41/samyfg41.github.io.git
 
 ## Objetivo do Projeto
 Criar um site simples, eficiente e responsivo que apresente informações claras para auxiliar na escolha de uma casa ou hotel para uma viagem a Orlando.

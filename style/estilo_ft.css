@@ -112,11 +112,27 @@ header {
 
 /* Responsividade */
 @media (max-width: 768px) {
+    /* Ajustar o layout para celular */
     .imagens {
-        flex-direction: column;
+        flex-direction: column; /* Coloca as imagens em uma coluna */
+        gap: 10px; /* Reduz o gap para não deixar muito espaçamento */
     }
 
     .imagem-item {
-        width: 100%;
+        width: 100%; /* Faz as imagens ocuparem 100% da largura */
+        margin-bottom: 15px; /* Ajusta o espaço entre as imagens */
+    }
+
+    header {
+        padding: 15px; /* Menos padding para caber melhor em telas pequenas */
+    }
+
+    .rodape {
+        padding: 15px; /* Menos padding no rodapé */
+    }
+
+    .sidebar {
+        max-width: 100%; /* Faz a sidebar ocupar toda a largura disponível */
+        margin-bottom: 20px; /* Espaço entre sidebar e o conteúdo */
     }
 }

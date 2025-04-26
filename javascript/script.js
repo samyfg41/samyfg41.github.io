@@ -1,5 +1,5 @@
 function atualizaContador() {
-    const destino = new Date("2025-11-12T00:00:00").getTime(); // nova data
+    const destino = new Date("2025-11-12T00:00:00").getTime(); 
     const agora = new Date().getTime();
     const distancia = destino - agora;
 

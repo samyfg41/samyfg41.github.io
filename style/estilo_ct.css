@@ -1,0 +1,144 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #113ccf;
+    display: inline-block; /* Faz o link se comportar como um bloco sem afetar o layout */
+    padding: 2px 8px; /* Mantém o padding constante */
+    transition: background-color 300ms, color 300ms; /* Transição suave */
+}
+
+a:hover {
+    color: #fff; /* Muda a cor do texto */
+    background-color: #113ccf; /* Muda o fundo */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Header */
+header {
+    background-color: #113ccf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    max-width: 250px;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+/* Seção de Contato */
+.contact-info {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.contact-info span {
+    font-size: 16px;
+}
+
+/* Seção de Nome e Foto */
+.author-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.photo-container {
+    margin-bottom: 10px;
+}
+
+.author-photo {
+    width: 150px; /* Tamanho aumentado da foto */
+    height: 150px;
+    border-radius: 50%; /* Foto redonda */
+    object-fit: cover; /* Garante que a foto se ajuste bem ao tamanho da bolinha */
+    border: 3px solid #113ccf; /* Borda azul para destacar a foto */
+}
+
+.author-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #113ccf;
+}
+
+/* Footer */
+footer {
+    background-color: #113ccf;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+
+    .contact-info ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

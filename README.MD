@@ -1,6 +1,6 @@
 # Site de Planejamento para Viagem
 
-Endreço GITHUB: https://github.com/samyfg41/samyfg41.github.io.git
+Endereço GITHUB: https://github.com/samyfg41/samyfg41.github.io.git
 
 ## Objetivo do Projeto
 Criar um site simples, eficiente e responsivo que apresente informações claras para auxiliar na escolha de uma casa ou hotel para uma viagem a Orlando.
@@ -34,5 +34,5 @@ projeto
 
 Endereço GITHUB: https://github.com/samyfg41/samyfg41.github.io.git
 
-## Formatação arquivo MARKDONW (*.MD)
+## Formatação arquivo MARKDOWN (*.MD)
 https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o-de-texto-com-Markdown?page=1&sort_by=created_at&sort_order=desc
